@@ -1,0 +1,43 @@
+.menuMainContainer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.headerTitleContainer{
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     height: 40px;
+}
+.headerTitle{
+    display: flex;
+    font-size: 16px;
+    align-self: flex-start;
+    color: black;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.listContainer{
+    background-color:white;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 6px;
+    overflow-y: scroll;
+    
+}
+.listContainerNested{
+    background-color:white;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 6px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+.divider{
+    width: 100%;
+    height: 1px;
+    background-color: #D3D3D3;
+}

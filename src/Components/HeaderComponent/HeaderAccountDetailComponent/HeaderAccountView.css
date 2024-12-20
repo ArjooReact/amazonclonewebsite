@@ -1,0 +1,44 @@
+.accountMainContainer{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.accountMainContainer:hover{
+  outline: 1px solid white;
+}
+.accountUpperSection{
+    height: 25px;
+  display: flex;
+  flex:.5;
+  justify-content: center;
+  align-items: center;
+}
+.accountLowerSection{
+    height: 25px;
+    display: flex;
+    flex:.5;
+    justify-content: center;
+    align-items: center;
+}
+.helloFontDiv{
+    width: 126px;
+    align-items:start;
+    display: flex;
+    flex-direction: row;
+}
+.helloFont{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    align-self: flex-start;
+    margin-top: 24px;
+}
+.accountsText{
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 24px;
+}

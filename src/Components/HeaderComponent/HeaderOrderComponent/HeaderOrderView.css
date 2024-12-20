@@ -1,0 +1,57 @@
+/* .accountMainContainer1{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.accountUpperSection1{
+    height: 25px;
+  display: flex;
+  flex:.5;
+  justify-content: center;
+  align-items: center;
+} */
+
+.accountMainContainer1 {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.accountMainContainer1:hover {
+  outline: 1px solid white;
+}
+.upperDiv {
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding-top: 8px;
+}
+.lowerDiv {
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8px;
+}
+
+.fontReturn {
+  font-size: 10px;
+  font-weight: bold;
+  align-self: center;
+  color: white;
+}
+.fontOrder {
+  align-self: center;
+  font-size: 14px;
+  font-weight: bolder;
+  color: white;
+}
+
+

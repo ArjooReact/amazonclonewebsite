@@ -1,0 +1,30 @@
+.filterComponentContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+}
+.list-container {
+  /* list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px; */
+
+  list-style-type: none; /* Removes bullet points */
+  margin: 0px; /* Removes any default margin around the <ul> */
+  padding: 0px;
+}
+.li-test {
+  margin: 0px; /* Removes margin between <li> elements */
+  padding: 0px;
+  padding-left: 26px;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+  }

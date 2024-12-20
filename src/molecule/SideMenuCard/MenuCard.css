@@ -1,0 +1,18 @@
+.menuCardMainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    justify-content:space-between;
+    align-items: center;
+}
+.menuCardMainContainer:hover{
+    background-color: #f2f2f2;
+}
+.cardFontStyle{
+    font-size: 15px;
+    font-weight:500;
+    color: #282c34;
+    padding-left: 12px;
+  
+}

@@ -1,0 +1,12 @@
+.mainContainer1 {
+  display: flex;
+  flex-direction: row;
+}
+.mainContainer1:hover {
+  outline: 1px solid white;
+}
+.amazonTextStyle {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}

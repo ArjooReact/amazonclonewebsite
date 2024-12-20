@@ -1,0 +1,29 @@
+
+.leftView{
+   flex:.2;
+   flex-direction: row;
+   align-items: baseline;
+   background-color: rgb(197, 190, 190);
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+.centerView{
+    flex:.7;
+    background-color: #ffffff;
+}
+.rightView{
+    flex: 0.1;
+    background-color: orange;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-input {
+    width: 96%;
+    height: 35px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+  }

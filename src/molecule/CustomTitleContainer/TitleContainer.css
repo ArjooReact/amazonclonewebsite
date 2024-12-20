@@ -1,0 +1,14 @@
+.title-mainContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 152vh;
+    height: 7vh;
+    margin-left: 5vh;
+    background-color: white;
+    margin-bottom: 26px;
+    border-radius: 4px;
+   padding-left: 6vh;
+    outline: 1px solid #333333;
+    margin-right: 2vh;
+}

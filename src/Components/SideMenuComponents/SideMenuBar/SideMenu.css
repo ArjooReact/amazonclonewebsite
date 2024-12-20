@@ -1,0 +1,23 @@
+
+.submenu {
+    margin-top: 10px;
+  }
+  
+  .submenu-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #37475a;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submenu-header:hover {
+    background-color: #2e3b49;
+  }
+  
+  .submenu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+  }

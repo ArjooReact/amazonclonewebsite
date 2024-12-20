@@ -1,0 +1,16 @@
+.limited-button-main-container{
+    width: 16vh;
+    height: 3.5vh;
+    background-color:#F54B5E;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.limited-btn-title{
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+}

@@ -1,0 +1,57 @@
+
+.button{
+    background-color: #4CAF50;  /* Green background */
+    color: white;               /* White text */
+    padding: 15px 32px;         /* Padding */
+    text-align: center;         /* Center text */
+    text-decoration: none;      /* No underline */
+    display: inline-block;      /* Keep the button inline */
+    font-size: 16px;            /* Font size */
+    border: none;               /* No border */
+    border-radius: 5px;         /* Rounded corners */
+    cursor: pointer;    
+}
+.best-sellers-text {
+    color: #111111; /* Dark gray for regular text */
+    font-family: 'Amazon Ember', Arial, sans-serif; /* Amazon's typical font */
+    font-size: 28px; /* Example font size */
+    padding-top: 3vh;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+}
+.popular-products-text {
+    color: #111111; /* Dark gray for standard text */
+    font-family: Amazon Ember, Arial, sans-serif; /* Amazon's standard font */
+    font-size: 14px; /* Example size */
+    font-weight: normal; /* Regular font weight */
+    text-align:left;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+}
+
+/* Optional: Link styling if it's part of the text */
+.popular-products-text a {
+    color: #0066c0; /* Amazon blue for links */
+    text-decoration: none;
+    
+}
+/* GridList.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(44vh, 1fr));
+    place-items: center;
+  }
+  
+  .grid-item {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }

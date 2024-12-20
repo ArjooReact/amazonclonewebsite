@@ -1,0 +1,19 @@
+.navButtonMainContainer{
+    background-color: #37475A;
+    width: max-content;
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
+}
+.navButtonMainContainer:hover{
+    outline: 1px solid white;
+}
+.navFontStyle{
+    font-size: 14px;
+    font-weight: bolder;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+    font-weight:600;
+    text-decoration: none;  
+}

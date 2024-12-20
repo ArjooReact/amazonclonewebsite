@@ -1,0 +1,42 @@
+.delivery-content-main-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+}
+.font-free-delivery-text{
+    font-size:14px;
+    font-weight:500;
+    margin-right:4px
+}
+.font-product-delivery-date{
+    font-weight:bolder;
+    font-size:14px;
+    margin-right:6px
+}
+.font-product-on-text{
+    margin-right:4px;
+    font-size:14px;
+}
+.font-product-price{
+    font-size:14px;
+    color:#333333;
+    font-weight:500;
+    margin-right:6px
+}
+.item-fullfilled-text{
+    font-size:14px;
+}
+.font-amazon-text{
+    text-align:left;
+    font-size:14px;
+}
+.font-fastest-delivery{
+    font-size:14px;
+    margin-right:6px
+}
+.font-timing-style{
+    font-size:14px;
+     font-weight:bolder
+}

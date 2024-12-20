@@ -1,0 +1,22 @@
+.cartMainContainer{
+    display: flex;
+    flex-direction: row;
+}
+.cartMainContainer:hover{
+    outline: 1px solid white;
+}
+.cartfirstSection{
+   width: 60px;
+}
+.cartSecondSection{
+    width: 40px;
+    align-items: flex-end;
+}
+.cartFontStyle{
+    font-size:14px;
+    color:#ffffff;
+     align-self:flex-end;
+     margin-top:26px;
+     font-weight:bolder;
+     margin-right: 40px;
+}

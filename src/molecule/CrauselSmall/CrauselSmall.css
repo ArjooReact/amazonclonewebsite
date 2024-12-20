@@ -1,0 +1,78 @@
+/* Make sure body takes up full height */
+html, body {
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Carousel container */
+  .carousel-container-small {
+    width: 100%;
+    overflow: hidden; /* Hide anything that overflows */
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    overflow: hidden;  /* Optional, hides overflow */
+    position: relative;
+    margin-top: 4px;
+    height: 150px;  /* Fixed height, adjust as needed */
+  }
+  
+  /* Individual slides */
+  .carousel-slide-small {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 50%;
+    object-fit: fill;
+  }
+  
+  .carousel-slide-small img {
+    width: 40%;
+    height: auto; /* Adjust based on your design */
+    display: block;
+    object-fit: fill;
+    height: 100%;
+  }
+  
+  /* Navigation buttons */
+  .carousel-button-small {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .carousel-dots-small {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+  }

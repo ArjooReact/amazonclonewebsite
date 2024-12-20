@@ -1,0 +1,8 @@
+.star-main-container{
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+    width: 30vh;
+    height: 3vh;
+    background-color: white;
+}

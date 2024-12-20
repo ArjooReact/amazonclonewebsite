@@ -1,0 +1,35 @@
+.navbar {
+  display: flex; /* Enable Flexbox */
+  justify-content: start; /* Center items horizontally */
+  align-items: center; /* Vertically center items */
+  background-color: #37475a; /* Dark background */
+  color: "#ffffff";
+  height: 16px;
+  padding-left: 0;
+  overflow-x: hidden;
+  /* Set outline border */ /* Add padding around the navbar */
+}
+
+.link {
+  font-family: "Roboto", sans-serif;
+  color: white !important;
+  font-weight: 600;
+  text-decoration: none; /* Remove underlines */
+  margin: 0 10px; /* Horizontal spacing between items */
+  font-size: 16px;
+}
+.allFontStyle {
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.hamBurgerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hamBurgerContainer:hover {
+  outline: 1px solid white;
+}

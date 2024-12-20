@@ -1,0 +1,19 @@
+.textMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30vh;
+    background-color: 'yellow';
+}
+.fontStyle{
+    font-weight: normal;
+    color:#111111;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 0px;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+.fontStyle:hover{
+    text-decoration: underline;
+}
