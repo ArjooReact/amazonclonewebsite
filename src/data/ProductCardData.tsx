@@ -1,18 +1,18 @@
-import productImage1 from "../assets/cardimage1.png";
-import productImage2 from "../assets/cardimage2.png";
-import productImage3 from "../assets/cardimage3.png";
+import productImage1 from "../../public/cardimage1.png";
+import productImage2 from "../../public/cardimage2.png";
+import productImage3 from "../../public/cardimage3.png";
 
-import productImage4 from "../assets/cardimage4.png";
-import productImage5 from "../assets/cardimage5.png";
-import productImage6 from "../assets/cardimage6.png";
+import productImage4 from ".../../public/cardimage4.png";
+import productImage5 from "../../public/cardimage5.png";
+import productImage6 from "../../public/cardimage6.png";
 
-import productImage7 from "../assets/cardimage7.png";
-import productImage8 from "../assets/cardimage8.png";
-import productImage9 from "../assets/cardimage9.png";
+import productImage7 from "../../public/cardimage7.png";
+import productImage8 from "../../public/cardimage8.png";
+import productImage9 from "../../public/cardimage9.png";
 
-import productImage10 from "../assets/cardimage10.png";
-import productImage11 from "../assets/cardimage11.png";
-import productImage12 from "../assets/cardimage12.png";
+import productImage10 from "../../public/cardimage10.png";
+import productImage11 from "../../public/cardimage11.png";
+import productImage12 from "../../public/cardimage12.png";
 
 export const productData = [
   {
