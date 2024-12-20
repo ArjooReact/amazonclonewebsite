@@ -1,4 +1,4 @@
-import productImage1 from "../public/banner1.png";
+import productImage1 from "../public/cardimage1.png";
 import productImage2 from "../public/cardimage2.png";
 import productImage3 from "../public/cardimage3.png";
 

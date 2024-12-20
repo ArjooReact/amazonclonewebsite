@@ -1,10 +1,20 @@
 .mainContainer {
   height: 50px;
   display: flex;
+  width: 100%;
   flex-direction: row;
   flex: 1;
   background-color: #282c34;
 }
+
+/* Mobile view - allow horizontal scroll */
+@media (max-width: 768px) {
+  .mainContainer{
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+
+}
+
 .amazonIconContainer {
   display: flex;
   flex: 0.1;
