@@ -8,6 +8,9 @@
 @media (max-width: 768px) {
   .main-nav-container{
     overflow-x: auto;
+    overflow-y: hidden;
+    height:5vh;
+    padding-top: 6px;
     -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
   }
 
@@ -20,7 +23,8 @@
   color: "#ffffff";
   height: 16px;
   padding-left: 0;
-  overflow-x: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
   /* Set outline border */ /* Add padding around the navbar */
 }
 

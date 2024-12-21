@@ -13,6 +13,7 @@
      width: 58vh;
     background-color: #ffffff;
 }
+
 .rightView{
     width: 6vh;   
     background-color: orange;
@@ -22,8 +23,22 @@
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 768px){
+    
+     .centerView{
+          width: 27vh;
+         background-color: #ffffff;
+     }
+     .leftView{
+        width: 12vh;
+        padding-left: 2vh;
+       
+     }
+    
+}
 .text-input {
     width: 96%;
+    padding-top: 4px;
     height: 35px;
     font-size: 16px;
     outline: none;

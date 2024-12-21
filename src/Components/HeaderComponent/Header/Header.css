@@ -50,6 +50,18 @@
   justify-content: center;
   background-color:#131A22;
 }
+@media (max-width: 766px){
+.searchContainer{
+  width: 45vh;
+  margin-left: 8px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#131A22;
+  margin-right: 3vh;
+}
+}
 .countryContainer {
   display: flex;
   justify-content: center;
