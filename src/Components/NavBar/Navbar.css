@@ -9,8 +9,8 @@
   .main-nav-container{
     overflow-x: auto;
     overflow-y: hidden;
-    height:5vh;
-    padding-top: 6px;
+    height:6vh;
+    padding-top: 2px;
     -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
   }
 
