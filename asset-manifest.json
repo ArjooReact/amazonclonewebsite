@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/amazonclonewebsite/static/css/main.3de61ee9.css",
+    "main.css": "/amazonclonewebsite/static/css/main.6f0ec769.css",
     "main.js": "/amazonclonewebsite/static/js/main.7488360f.js",
     "static/media/banner2.png": "/amazonclonewebsite/static/media/banner2.92297e3f1ba3797ad967.png",
     "static/media/banner1.png": "/amazonclonewebsite/static/media/banner1.22a57050ef03d13f9aac.png",
@@ -44,11 +44,11 @@
     "static/media/crausel13.png": "/amazonclonewebsite/static/media/crausel13.1e4ee82f065609c17102.png",
     "static/media/crausel5.png": "/amazonclonewebsite/static/media/crausel5.94728cae23c65ca6b3e9.png",
     "index.html": "/amazonclonewebsite/index.html",
-    "main.3de61ee9.css.map": "/amazonclonewebsite/static/css/main.3de61ee9.css.map",
+    "main.6f0ec769.css.map": "/amazonclonewebsite/static/css/main.6f0ec769.css.map",
     "main.7488360f.js.map": "/amazonclonewebsite/static/js/main.7488360f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3de61ee9.css",
+    "static/css/main.6f0ec769.css",
     "static/js/main.7488360f.js"
   ]
 }
