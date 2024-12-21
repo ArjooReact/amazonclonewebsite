@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/amazonclonewebsite/static/css/main.7ea20907.css",
-    "main.js": "/amazonclonewebsite/static/js/main.781b6c29.js",
+    "main.css": "/amazonclonewebsite/static/css/main.13931637.css",
+    "main.js": "/amazonclonewebsite/static/js/main.7488360f.js",
     "static/media/banner2.png": "/amazonclonewebsite/static/media/banner2.92297e3f1ba3797ad967.png",
     "static/media/banner1.png": "/amazonclonewebsite/static/media/banner1.22a57050ef03d13f9aac.png",
+    "static/media/christmasbannerimage.png": "/amazonclonewebsite/static/media/christmasbannerimage.c51ec3b0a6813d37a3e2.png",
     "static/media/cardimage11.png": "/amazonclonewebsite/static/media/cardimage11.02f8d67e3c5076e60ef5.png",
     "static/media/cardimage2.png": "/amazonclonewebsite/static/media/cardimage2.6631ccc4e63f89858eb5.png",
     "static/media/cardimage9.png": "/amazonclonewebsite/static/media/cardimage9.990e661cea5200b93094.png",
@@ -43,11 +44,11 @@
     "static/media/crausel13.png": "/amazonclonewebsite/static/media/crausel13.1e4ee82f065609c17102.png",
     "static/media/crausel5.png": "/amazonclonewebsite/static/media/crausel5.94728cae23c65ca6b3e9.png",
     "index.html": "/amazonclonewebsite/index.html",
-    "main.7ea20907.css.map": "/amazonclonewebsite/static/css/main.7ea20907.css.map",
-    "main.781b6c29.js.map": "/amazonclonewebsite/static/js/main.781b6c29.js.map"
+    "main.13931637.css.map": "/amazonclonewebsite/static/css/main.13931637.css.map",
+    "main.7488360f.js.map": "/amazonclonewebsite/static/js/main.7488360f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ea20907.css",
-    "static/js/main.781b6c29.js"
+    "static/css/main.13931637.css",
+    "static/js/main.7488360f.js"
   ]
 }
