@@ -6,7 +6,7 @@ import NavButton from "../../atoms/NavButton/NavButton";
 
 const Navbar: React.FC<NavbarType> = () => {
   return (
-    <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+    <div className="main-nav-container">
       <nav className="navbar">
         <Link className="link" to="/">
           <NavButton title="Home"></NavButton>

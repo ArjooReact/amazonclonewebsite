@@ -1,11 +1,15 @@
 .navButtonMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #37475A;
     width: max-content;
-    padding-top: 0.2px;
-    padding-bottom: 0.2px;
+    height: 5vh;
+   
 }
 .navButtonMainContainer:hover{
     outline: 1px solid white;
+   
 }
 .navFontStyle{
     font-size: 14px;

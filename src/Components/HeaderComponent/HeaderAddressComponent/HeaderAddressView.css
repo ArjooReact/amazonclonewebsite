@@ -1,8 +1,13 @@
 .addressMainContainer {
+  width: 26vh;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 8px;
+  height: 7vh;
   flex: 1;
-  height: 50px;
 }
 .addressMainContainer:hover{
   outline: 1px solid white;
@@ -10,7 +15,9 @@
 .leftContainer {
   display: flex;
   flex: 0.2;
-  height: 50px;
+  height: 6vh;
+  padding-left: 4px;
+  padding-right: 6px;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
@@ -21,12 +28,12 @@
   flex-direction: column;
   flex: 0.8;
   flex-direction: column;
-  height: 50px;
+  height:6vh;
 }
-.addressUpperSection {
+/* .addressUpperSection {
   display: flex;
   justify-content: center;
-  height: 20px;
+  height: 3vh;
   flex-direction: row;
   align-content: end;
   justify-content: flex-start;
@@ -35,12 +42,12 @@
 }
 .addressLowerSection {
   display: flex;
-  height: 30px;
+  height: 3vh;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   align-content: end;
-}
+} */
 .pinCodeContent {
   font-size: 14px;
   margin-bottom: 26px;

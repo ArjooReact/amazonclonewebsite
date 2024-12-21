@@ -1,3 +1,17 @@
+.main-nav-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:5vh
+}
+/* Mobile view - allow horizontal scroll */
+@media (max-width: 768px) {
+  .main-nav-container{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+
+}
 .navbar {
   display: flex; /* Enable Flexbox */
   justify-content: start; /* Center items horizontally */
@@ -6,9 +20,11 @@
   color: "#ffffff";
   height: 16px;
   padding-left: 0;
-  overflow-x: hidden;
+  overflow-x: scroll;
   /* Set outline border */ /* Add padding around the navbar */
 }
+
+
 
 .link {
   font-family: "Roboto", sans-serif;

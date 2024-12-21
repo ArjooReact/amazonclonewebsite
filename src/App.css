@@ -40,11 +40,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.navbar{
-  display:flex;
-  justify-content:start;
+.navbar {
+  display: flex;
+  justify-content: start;
   flex-direction: row;
- 
+
   padding: 1rem;
   background-color: #282c34;
 }
@@ -62,22 +62,18 @@
   }
 }
 
-
-
 /* Sidebar styles */
 .sidebar {
   position: fixed;
   top: 0;
   left: -360px; /* Initially hidden off-screen */
   width: 360px;
-  height:100%;
+  height: 100%;
   background-color: #ffffff;
   color: white;
   transition: left 0.3s ease;
   padding-top: 0px;
   z-index: 1000; /* Ensure the sidebar is on top */
- 
-  
 }
 
 .content {
@@ -92,7 +88,7 @@
   padding-top: 0px;
   z-index: 1000; /* Ensure the sidebar is on top */
   height: 100vh; /* Full height of the viewport */
-  position: fixed; 
+  position: fixed;
   overflow-y: scroll;
 }
 
@@ -120,7 +116,6 @@
 .sidebar-menu li:hover {
   background-color: #37475a;
 } */
-
 
 .submenu-list li {
   padding: 8px;
@@ -173,29 +168,28 @@
     width: 200px;
   }
 
-
   .sidebar-toggle-btn {
     left: 10px;
     top: 10px;
   }
 }
 
-.hamBurgerContainer2{
-  display:flex;
-  flex-direction:row;
-   align-items:center;
-   background-color: #37475a;
+.hamBurgerContainer2 {
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #37475a;
 }
-.hamBurgerButton{
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
-margin-right: 1px;
-margin-left: 1px;
-padding-bottom: 1px;
+.hamBurgerButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1px;
+  margin-left: 1px;
+  padding: 1vh;
 }
-.hamBurgerButton:hover{
- outline: 1px solid white;
+.hamBurgerButton:hover {
+  outline: 1px solid white;
 }
-

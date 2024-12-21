@@ -14,7 +14,7 @@ html, body {
     overflow: hidden;  /* Optional, hides overflow */
     position: relative;
     margin-top: 4px;
-    height: 200px;  /* Fixed height, adjust as needed */
+    height: 30vh;  /* Fixed height, adjust as needed */
   }
   
   /* Individual slides */

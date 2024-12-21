@@ -1,12 +1,19 @@
 .mainContainer1 {
+  width: auto;
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: row;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .mainContainer1:hover {
   outline: 1px solid white;
 }
 .amazonTextStyle {
   color: white;
-  font-size: 18px;
+  font-size: 2vh;
+  align-self: flex-end;
+  padding-bottom: 2.5vh;
   font-weight: bolder;
 }

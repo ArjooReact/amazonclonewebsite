@@ -2,13 +2,18 @@ import React, { useState, useEffect } from 'react';
 import './Crausel.css';
 import image1 from '../../assets/banner1.png'
 import image2 from '../../assets/banner2.png'
+import christmasImage from '../../assets/christmasbannerimage.png'
 const images = [
+  christmasImage,
   'https://m.media-amazon.com/images/I/71cp9PVuTfL._SX3000_.jpg',
   'https://m.media-amazon.com/images/I/61GnAucagBL._SX3000_.png',
+  christmasImage,
   'https://m.media-amazon.com/images/I/71qlKqpJnlL._SX3000_.jpg',
   'https://m.media-amazon.com/images/I/71cQMXCLSvL._SX3000_.jpg',
+  christmasImage,
   'https://m.media-amazon.com/images/I/61aURrton0L._SX3000_.jpg',
   'https://m.media-amazon.com/images/I/61O72XhcEkL._SX3000_.jpg',
+  christmasImage,
   'https://m.media-amazon.com/images/I/61VuJdpjvaL._SX3000_.jpg',
   'https://m.media-amazon.com/images/I/61UrRx+3LLL._SX3000_.jpg'
 ];

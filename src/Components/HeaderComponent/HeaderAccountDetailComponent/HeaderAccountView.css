@@ -1,16 +1,17 @@
 .accountMainContainer{
-    height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 7vh;
     width: 100%;
+    padding-left: 14px;
 }
 .accountMainContainer:hover{
   outline: 1px solid white;
 }
 .accountUpperSection{
-    height: 25px;
+  height: 25px;
   display: flex;
   flex:.5;
   justify-content: center;

@@ -1,18 +1,20 @@
 
 .leftView{
-   flex:.2;
+   width: 16vh;
    flex-direction: row;
+   justify-content: center;
+   align-items: center;
    align-items: baseline;
    background-color: rgb(197, 190, 190);
    border-top-left-radius: 10px;
    border-bottom-left-radius: 10px;
 }
 .centerView{
-    flex:.7;
+     width: 58vh;
     background-color: #ffffff;
 }
 .rightView{
-    flex: 0.1;
+    width: 6vh;   
     background-color: orange;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;

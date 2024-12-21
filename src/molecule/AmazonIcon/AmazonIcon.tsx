@@ -7,7 +7,7 @@ const AmazonIcon:React.FC<AmazonIconType>=({title})=>{
     return(<div className="mainContainer1">
       <img
       src={anazonIcon}
-      style={{width:'100px',height:'40px',marginTop:'16px'}}
+      style={{width:'auto',height:'5vh',marginTop:'1vh'}}
       ></img>
       <p className="amazonTextStyle">.in</p>
     </div>)

@@ -28,9 +28,9 @@ const CustomTextInput:React.FC<CustomTextInputType>=()=>{
      <div
      onClick={clickingButton}
       className="leftView">
-        <div style={{display:'flex',flexDirection:'row',flex:1}}>
+        <div style={{display:'flex',flexDirection:'row',flex:1,justifyContent:'center',alignItems:'center',marginTop:'10px'}}>
         <div style={{flex:.7,display:'flex',alignSelf:'center',justifyContent:'flex-end'}}>
-        <p style={{color:'#000000', fontSize:'12px'}}>Gift Cards</p>
+        <p style={{color:'#000000', fontSize:'12px',textAlign:'center'}}>Gift Cards</p>
         </div>
         <div style={{flex:.3,display:'flex',justifyContent:'flex-start',alignItems:'flex-start',alignSelf:'center'}}>
         <img 

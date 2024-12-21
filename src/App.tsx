@@ -20,14 +20,14 @@ function App(): React.JSX.Element {
   return (
 
     <div className="App">
-      <div style={{height:'86px'}}>
+      <div style={{height:'auto'}}>
       <Header></Header>
       <div className="hamBurgerContainer2">
         <div className="hamBurgerButton" onClick={toggleSidebar}>
           <img
             src={hamburgerIcon}
             alt="" 
-            style={{ width: 20, height: 20, paddingLeft: "2px" }}
+            style={{ width: '3vh', height: '3vh', paddingLeft: "2px" }}
           ></img>
           <p className="allFontStyle">All</p>
         </div>
