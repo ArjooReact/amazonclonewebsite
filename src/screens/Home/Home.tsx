@@ -34,7 +34,7 @@ const Home: React.FC<HomeType> = ({}) => {
     console.log("clicked..");
   };
   return (
-    <div style={{ backgroundColor: "white" }}>
+    <div style={{ backgroundColor: "white",overflowX:'hidden' }}>
       <Carousel></Carousel>
 
       {/* <CustomCrausel></CustomCrausel> */}
