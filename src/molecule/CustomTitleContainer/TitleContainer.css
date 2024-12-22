@@ -12,3 +12,45 @@
     outline: 1px solid #333333;
     margin-right: 2vh;
 }
+.title-first-text-size{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.title-second-text-size{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 8px;
+    color: orange;
+}
+
+@media(max-width:640px){
+    .title-mainContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 46vh;
+        height: 5vh;
+        margin-left: 2vh;
+        background-color: white;
+        margin-bottom: 16px;
+        border-radius: 3px;
+       padding-left: 6vh;
+        outline: 1px solid #333333;
+        margin-right: 2vh;
+    }
+
+    .title-first-text-size{
+        font-size: 10px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .title-second-text-size{
+        font-size: 10px;
+        font-weight: bolder;
+        margin-left: 4px;
+        color: orange;
+    }
+}
