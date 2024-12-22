@@ -99,7 +99,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 42vh;
+        width: 46vh;
+        margin-left: 12px;
         background-color:#f2f2f2;
         height: 20vh;
         margin-left: 4px;
@@ -113,7 +114,7 @@
         flex-direction: row;
         justify-content:space-between;
         align-self: center;
-        width: 40vh;
+        width: 44vh;
         background-color: white;
         height: 17vh;
     }
