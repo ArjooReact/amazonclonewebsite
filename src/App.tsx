@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import "./App.css";
 import Home from "./screens/Home/Home";
 import About from "./screens/About/About";
@@ -48,10 +48,12 @@ function App(): React.JSX.Element {
       {/* Main content */}
       <div className="content">
         <Routes>
+        <Route path="*" element={<Home />}/>
         <Route path="/" element={<Home />} /> {/* Home route */}
         <Route path="/about" element={<About />} /> {/* About route */}
         {/* <Route path="*" element={<NotFound />} />  Catch-all route for 404 */}
       </Routes>
+
       </div>
       {/* Define the routes */}
      </div>
