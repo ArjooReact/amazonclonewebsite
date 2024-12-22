@@ -1,0 +1,23 @@
+.title-font-size{
+    font-weight:bolder;
+    color:black;
+    align-self:left;
+    text-align:left;
+    margin-top:4vh;
+    margin-bottom:6vh;
+    margin-left:6vh;
+    font-size:20px;
+}
+
+@media(max-width:768px){
+    .title-font-size{
+        font-weight:bolder;
+        color:black;
+        align-self:left;
+        text-align:left;
+        margin-top:2vh;
+        margin-bottom:1vh;
+        margin-left: 6vh;
+        font-size:12px;
+    }
+}
