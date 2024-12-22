@@ -113,13 +113,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 48vh;
+        width: 47vh;
         background-color:white;
         height: 24vh;
         margin-top: 6px;
-        margin-left: 4vh;
+        margin-left: 10px;
         padding-left: 10px;
-        padding-right: 4px;
+        padding-right: 8px;
         margin-bottom: 4vh;
     }
     .innerMainContainer1{
@@ -127,7 +127,7 @@
         flex-direction: row;
         justify-content:space-between;
         align-self: center;
-        width: 46vh;
+        width: 45vh;
         background-color: white;
         height: 22vh;
         padding-right: 10px;
