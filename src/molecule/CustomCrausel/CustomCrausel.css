@@ -94,7 +94,7 @@
     align-self: center;
 }
 
-@media(max-width: 768px){
+@media(max-width: 640px){
     .mainCustomContainer{
         display: flex;
         justify-content: center;

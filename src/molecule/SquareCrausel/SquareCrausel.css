@@ -85,7 +85,7 @@
    
 }
 
-@media(max-width: 768px){
+@media(max-width: 640px){
   
 
     .square-crausel-mainContainer{
@@ -93,11 +93,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 47vh;
+        width: 48vh;
         background-color:white;
         height: 24vh;
         margin-top: 6px;
-        margin-left: 8px;
+        margin-left: 30px;
         padding-left: 6px;
         padding-right: 8px;
         margin-bottom: 4vh;
@@ -107,7 +107,7 @@
         flex-direction: row;
         justify-content:space-between;
         align-self: center;
-        width: 45vh;
+        width: 46vh;
         background-color: white;
         height: 22vh;
         padding-right: 10px;
