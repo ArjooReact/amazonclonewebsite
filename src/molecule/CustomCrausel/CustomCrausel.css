@@ -88,4 +88,46 @@
     align-content:center;
     align-self:center;
 }
+.image-dimension{
+    width: 18vh;
+    height: 18vh;
+    align-self: center;
+}
+
+@media(max-width: 768px){
+    .mainCustomContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 76vh;
+        background-color:#f2f2f2;
+        height: 28vh;
+        margin-left: 5vh;
+        padding-left: 6px;
+        padding-right: 4px;
+        margin-top: 7px;
+    }
+    .innerMainContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-self: center;
+        width: 70vh;
+        background-color: white;
+        height: 18vh;
+    }
+    .imageContainer{
+        width:15vh; 
+        height:15vh; 
+        display:flex;
+        justify-content:center;
+        align-content:center;
+        align-self:center;
+    }
+    .image-dimension{
+        width: 14vh;
+        height: 14vh;
+        align-self: center;
+    }
+}
 

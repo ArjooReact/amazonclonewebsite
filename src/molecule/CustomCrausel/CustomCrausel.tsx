@@ -72,7 +72,7 @@ const CustomCrausel:React.FC<CustomCrauselType>=({})=>{
                   <div className="imageContainer">
          <img
          src={item}
-         style={{width:'18vh',height:'18vh',alignSelf:'center'}}
+         className="image-dimension"
          >
          </img>
         </div>

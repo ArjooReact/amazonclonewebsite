@@ -62,10 +62,10 @@ const CrauselSquareCard:React.FC<CrauselSquareType>=({imagePath,title})=>{
     return(<div className="square-crausel-card">
      <img
      src={imagePath}
-     style={{width:'100%', height:'20vh'}}
+     className="square-image-style"
      >
      </img>
-     <p style={{fontWeight:'bold',fontSize:'14px',marginBottom:'12px'}}>{title}</p>
+     <p className="image-font-style">{title}</p>
     </div>)
 }
 

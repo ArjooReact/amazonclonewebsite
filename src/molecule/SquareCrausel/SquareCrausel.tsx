@@ -93,7 +93,7 @@ const SquareCrausel:React.FC<SquareCrauselType>=()=>{
       };
 
     return(<div className='square-crausel-mainContainer'>
-     <div className="innerMainContainer1">
+   <div className="innerMainContainer1">
    <div className="leftArrowContainer">
     <div className="leftButtonDiv">
     <button className="carousel-button-new" onClick={scrollLeft}>
