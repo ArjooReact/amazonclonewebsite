@@ -26,15 +26,27 @@ const images1= [
 
 const Carousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
+  const [isMobile, setIsMobile] = useState(false);
   // Auto scroll every 3 seconds
   useEffect(() => {
+    checkDeviceType(); 
+    window.addEventListener('resize', checkDeviceType);
     const interval = setInterval(() => {
       nextSlide();
     }, 3000); // Change slide every 3 seconds
-    return () => clearInterval(interval); // Cleanup interval on component unmount
+    return () => {
+      window.removeEventListener('resize', checkDeviceType);
+      clearInterval(interval);
+     }// Cleanup interval on component unmount
   }, [currentIndex]);
 
+  const checkDeviceType = () => {
+    if (window.innerWidth <= 768) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  };
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
@@ -69,8 +81,8 @@ const Carousel: React.FC = () => {
         &#10095;
       </button>
 
-      {/* Dots */}
-      <div className="carousel-dots">
+
+     {isMobile?(null):(  <div className="carousel-dots">
         {images.map((_, index) => (
           <span
             key={index}
@@ -78,7 +90,9 @@ const Carousel: React.FC = () => {
             onClick={() => goToSlide(index)}
           />
         ))}
-      </div>
+      </div>)}
+      {/* Dots */}
+    
     </div>
   );
 };

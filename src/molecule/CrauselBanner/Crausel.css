@@ -13,7 +13,7 @@ html, body {
     border: 1px solid #ddd;
     overflow: hidden;  /* Optional, hides overflow */
     position: relative;
-    margin-top: 4px;
+    margin-top: 0px;
     height: 30vh;  /* Fixed height, adjust as needed */
   }
   
@@ -74,4 +74,18 @@ html, body {
   
   .dot.active {
     background-color: #717171;
+  }
+
+  @media(max-width:648px){
+     /* Carousel container */
+  .carousel-container {
+    width: 100%;
+    overflow: hidden; /* Hide anything that overflows */
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    overflow: hidden;  /* Optional, hides overflow */
+    position: relative;
+    height: 24vh;  /* Fixed height, adjust as needed */
+  }
   }
