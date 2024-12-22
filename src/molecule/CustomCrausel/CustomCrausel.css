@@ -99,10 +99,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 46vh;
+        width: 42vh;
         margin-right: 12px;
         background-color:#f2f2f2;
-        height: 22vh;
+        height: 20vh;
         margin-left: 10px;
         padding-left: 6px;
         padding-right: 4px;
@@ -114,9 +114,9 @@
         flex-direction: row;
         justify-content:space-between;
         align-self: center;
-        width: 44vh;
+        width: 40vh;
         background-color: white;
-        height: 16vh;
+        height: 17vh;
     }
     .imageContainer{
         width:12vh; 
