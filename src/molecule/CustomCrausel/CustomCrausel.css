@@ -99,14 +99,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 48vh;
+        width: 46vh;
         margin-right: 12px;
         background-color:#f2f2f2;
-        height: 28vh;
-        margin-left: 5vh;
+        height: 22vh;
+        margin-left: 10px;
         padding-left: 6px;
         padding-right: 4px;
-        margin-right: 90px;
+        margin-right: 10px;
         margin-top: 7px;
     }
     .innerMainContainer{
@@ -114,21 +114,21 @@
         flex-direction: row;
         justify-content:space-between;
         align-self: center;
-        width: 46vh;
+        width: 44vh;
         background-color: white;
-        height: 18vh;
+        height: 16vh;
     }
     .imageContainer{
-        width:15vh; 
-        height:15vh; 
+        width:12vh; 
+        height:12vh; 
         display:flex;
         justify-content:center;
         align-content:center;
         align-self:center;
     }
     .image-dimension{
-        width: 14vh;
-        height: 14vh;
+        width: 10vh;
+        height: 10vh;
         align-self: center;
     }
 }
