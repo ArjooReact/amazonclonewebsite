@@ -99,7 +99,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 68vh;
+        width: 58vh;
         margin-right: 12px;
         background-color:#f2f2f2;
         height: 28vh;
@@ -114,7 +114,7 @@
         flex-direction: row;
         justify-content:space-between;
         align-self: center;
-        width: 66vh;
+        width: 56vh;
         background-color: white;
         height: 18vh;
     }

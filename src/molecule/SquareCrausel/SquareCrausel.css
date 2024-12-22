@@ -113,7 +113,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 70vh;
+        width: 60vh;
         background-color:white;
         height: 28vh;
         margin-top: 6px;
@@ -127,7 +127,7 @@
         flex-direction: row;
         justify-content:space-between;
         align-self: center;
-        width: 68vh;
+        width: 58vh;
         background-color: white;
         height: 26vh;
         padding-right: 20px;
