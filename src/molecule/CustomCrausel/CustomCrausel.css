@@ -99,12 +99,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 76vh;
+        width: 68vh;
+        margin-right: 12px;
         background-color:#f2f2f2;
         height: 28vh;
         margin-left: 5vh;
         padding-left: 6px;
         padding-right: 4px;
+        margin-right: 90px;
         margin-top: 7px;
     }
     .innerMainContainer{
@@ -112,7 +114,7 @@
         flex-direction: row;
         justify-content:space-between;
         align-self: center;
-        width: 70vh;
+        width: 66vh;
         background-color: white;
         height: 18vh;
     }
