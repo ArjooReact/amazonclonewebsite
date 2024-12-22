@@ -5,6 +5,9 @@
     background-color: white;
     justify-content:space-between;
     align-items: center;
+    padding-left: 20px;
+   padding-top: 6px;
+   padding-bottom: 6px;
 }
 .menuCardMainContainer:hover{
     background-color: #f2f2f2;

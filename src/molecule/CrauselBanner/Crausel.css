@@ -86,6 +86,6 @@ html, body {
     border: 1px solid #ddd;
     overflow: hidden;  /* Optional, hides overflow */
     position: relative;
-    height: 24vh;  /* Fixed height, adjust as needed */
+    height: 30vh;  /* Fixed height, adjust as needed */
   }
   }

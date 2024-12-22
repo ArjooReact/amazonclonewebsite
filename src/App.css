@@ -66,8 +66,8 @@
 .sidebar {
   position: fixed;
   top: 0;
-  left: -360px; /* Initially hidden off-screen */
-  width: 360px;
+  left: -390px; /* Initially hidden off-screen */
+  width: 390px;
   height: 100%;
   background-color: #ffffff;
   color: white;
@@ -83,7 +83,7 @@
 .sidebarNested {
   position: fixed;
   top: 30;
-  width: 360px;
+  width: 380px;
   background-color: #ffffff;
   padding-top: 0px;
   z-index: 1000; /* Ensure the sidebar is on top */
@@ -165,7 +165,19 @@
 /* For mobile responsiveness */
 @media (max-width: 768px) {
   .sidebar {
-    width: 200px;
+    width: 160px;
+  }
+  
+  .sidebarNested {
+    position: fixed;
+    top: 30;
+    width: 150px;
+    background-color: #ffffff;
+    padding-top: 0px;
+    z-index: 1000; /* Ensure the sidebar is on top */
+    height: 100vh; /* Full height of the viewport */
+    position: fixed;
+    overflow-y: scroll;
   }
 
   .sidebar-toggle-btn {
